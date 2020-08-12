@@ -7,5 +7,5 @@ list(REMOVE_ITEM kissat_source_files "src/witness.c")
 
 add_library(kissat ${kissat_source_files})
 target_include_directories(kissat PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
-target_compile_options(kissat PRIVATE -DNEMBEDDED -DNMETRICS -DNSTATISTICS)
+target_compile_options(kissat PRIVATE -DNEMBEDDED -DNMETRICS -DNSTATISTICS -DNPROOFS -DQUIET)
 
