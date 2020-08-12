@@ -1,0 +1,5 @@
+#define VERSION "hoge"
+#define COMPILER "hoge"
+#define ID "hoge"
+#define BUILD "hoge"
+#define DIR "hoge"

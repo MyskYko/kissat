@@ -1,7 +1,7 @@
 #include "backtrack.h"
 #include "decide.h"
 #include "internal.h"
-#include "limits.h"
+#include "limits2.h"
 #include "logging.h"
 #include "print.h"
 #include "reluctant.h"
